@@ -1,0 +1,28 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+.calc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.calc-button{
+    display: grid;
+    width: 80px;
+    height: 80px;
+    background-color: pink;
+    border: solid rgb(192, 195, 255);
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
